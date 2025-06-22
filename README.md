@@ -165,6 +165,11 @@ cd cloud_project
 - Use **Enter** or **Space** to activate items
 
 ---
+✅ GitHub link:
+https://github.com/nourelhouda26/cloud_project
+
+✅ DockerHub image link:
+https://hub.docker.com/r/nourn/cloud_project
 
 ## 👥 Authors
 
