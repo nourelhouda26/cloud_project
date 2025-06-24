@@ -2,28 +2,30 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <!-- Defines character encoding -->
+  <!-- This tag defines the character encoding as UTF-8 to support special characters -->
+  
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- Makes the page responsive on all devices -->
+  <!-- Makes the website responsive by scaling properly on all screen sizes (mobile, tablet, desktop) -->
 
   <title>CloudSync - Online Storage</title>
-  <!-- Browser tab title -->
+  <!-- This is the title shown in the browser tab -->
 
-  <!-- Import Google Poppins font -->
+  <!-- We import the Poppins font from Google Fonts for better UI appearance -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
-  <!-- Link to external CSS stylesheet -->
+  <!-- Linking the external CSS stylesheet to style the page -->
   <link rel="stylesheet" href="style2.css" />
 </head>
 
 <body>
 
-  <!-- ====== Page Header ====== -->
+  <!-- ====== HEADER SECTION ====== -->
   <header>
     <nav class="navbar">
-      <!-- App logo -->
-      <div class="logo">☁️ CloudSync</div>
-      <!-- Navigation menu -->
+      <!-- Logo of the application shown on the top left -->
+      <div class="logo">☁ CloudSync</div>
+
+      <!-- Navigation links to different sections of the page -->
       <ul class="nav-links">
         <li><a href="#">Home</a></li>
         <li><a href="#">Features</a></li>
@@ -32,29 +34,35 @@
       </ul>
     </nav>
 
-    <!-- Hero section with title and button -->
+    <!-- Hero section (main banner with a title and a button) -->
     <div class="hero">
       <h1>Your Secure Private Cloud</h1>
+      <!-- Short description about the purpose of the app -->
       <p>Store, share, and access your files from anywhere.</p>
+      <!-- A call-to-action button that could redirect the user to a registration or login page -->
       <a href="#" class="btn">Get Started</a>
     </div>
   </header>
 
-  <!-- ====== Features Section ====== -->
+  <!-- ====== MAIN FEATURES SECTION ====== -->
   <section class="features">
     <h2>Main Features</h2>
+    
+    <!-- Feature cards shown in a row -->
     <div class="cards">
-      <!-- Card 1 -->
+      <!-- Card 1: Secure storage feature -->
       <div class="card">
         <h3>📁 Secure Storage</h3>
         <p>Keep your files safe in an encrypted and protected environment.</p>
       </div>
-      <!-- Card 2 -->
+
+      <!-- Card 2: Easy file sharing -->
       <div class="card">
         <h3>🔗 Easy Sharing</h3>
         <p>Create sharing links for your files and folders.</p>
       </div>
-      <!-- Card 3 -->
+
+      <!-- Card 3: Access from any device -->
       <div class="card">
         <h3>📱 Cross-Platform Access</h3>
         <p>Access your data from PC, mobile, or tablet.</p>
@@ -62,11 +70,11 @@
     </div>
   </section>
 
-  <!-- ====== Tabbed Interface Section ====== -->
+  <!-- ====== TABBED MENU SECTION ====== -->
   <section class="features">
     <h2>Tabbed Interface</h2>
-    
-    <!-- Tab buttons -->
+
+    <!-- Buttons to switch between different tabs -->
     <div class="tabs">
       <button class="tab-btn active" onclick="showTab(1)">Tab 1</button>
       <button class="tab-btn" onclick="showTab(2)">Tab 2</button>
@@ -74,21 +82,22 @@
       <button class="tab-btn" onclick="showTab(4)">Tab 4</button>
     </div>
 
-    <!-- Tab content area (loaded dynamically) -->
+    <!-- Tab content area: this will be updated dynamically with JavaScript -->
     <div id="tab-content" class="tab-area"></div>
 
-    <!-- Status bar displaying the simulated REST message -->
+    <!-- Status bar: used to display the result of the simulated REST API calls -->
     <div id="status" class="status-bar">
       Click on an item to simulate a REST API call.
     </div>
   </section>
 
-  <!-- ====== Footer ====== -->
+  <!-- ====== FOOTER SECTION ====== -->
   <footer>
     <p>&copy; 2025 CloudSync - Cloud Project M1. All rights reserved.</p>
+    <!-- Footer message with project title and copyright -->
   </footer>
 
-  <!-- Link to JavaScript file -->
+  <!-- Linking the JavaScript file that handles tab switching and API simulation -->
   <script src="java.js"></script>
 </body>
 </html>
