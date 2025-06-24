@@ -3,7 +3,8 @@
 A responsive tabbed menu web application that simulates REST API calls when menu items are clicked.  
 This project was created as part of a midterm assignment for the **Higher Institute of Science**.
 
-🔗 **DockerHub Image**: [nourn/cloud_project](https://hub.docker.com/r/nourn/cloud_project)
+🔗 **DockerHub Image**: [nourn/cloud_project](https://hub.docker.com/r/nourn/cloud_project)  
+🔗 **GitHub Repository**: [github.com/nourelhouda26/cloud_project](https://github.com/nourelhouda26/cloud_project)
 
 ---
 
@@ -14,8 +15,7 @@ This project was created as part of a midterm assignment for the **Higher Instit
 - [Menu Item Counts](#menu-item-counts)
 - [Technical Implementation](#technical-implementation)
 - [Project Structure](#project-structure)
-- [Running the Application with Apache httpd](#running-the-application-with-apache-httpd)
-- [Docker Deployment](#docker-deployment)
+- [Running the Application with Docker](#running-the-application-with-docker)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Authors](#authors)
@@ -61,7 +61,6 @@ This web application demonstrates modern frontend development techniques includi
 - **Tab 3**: 4 menu items
 - **Tab 4**: 4 menu items
 
-
 ---
 
 ## 🧪 Technical Implementation
@@ -69,7 +68,7 @@ This web application demonstrates modern frontend development techniques includi
 | Component         | Technology Used        |
 |------------------|------------------------|
 | Frontend         | HTML5, CSS3, JavaScript |
-| Hosting          | Apache HTTP Server     |
+| Hosting          | Apache HTTP Server (Docker) |
 | Containerization | Docker                 |
 | Version Control  | Git/GitHub             |
 
@@ -88,50 +87,39 @@ Cloud_Project/
 
 ---
 
-## 🖥️ Running the Application with Apache httpd
+## 🐳 Running the Application with Docker (Windows & All OS)
 
-### 1. Install Apache
+### Step 1: Open Terminal
 
-```bash
-sudo apt update
-sudo apt install apache2
-sudo service apache2 start
-```
+Use **Command Prompt**, **PowerShell**, or **Git Bash**.
 
-### 2. Add User to www-data Group
+### Step 2: Navigate to your project folder
 
 ```bash
-sudo usermod -a -G www-data $USER
-sudo chown -R $USER:$USER /var/www
+cd path\to\Cloud_Project
 ```
 
-### 3. Copy Files
-
-```bash
-sudo cp -r * /var/www/html
-```
-
-### 4. Access in Browser
-
-Open: `http://localhost`
-
----
-
-## 🐳 Docker Deployment
-
-### 🔨 Build Docker Image
+### Step 3: Build Docker Image
 
 ```bash
 docker build -t cloud_project .
 ```
 
-### ▶️ Run the Docker Container
+### Step 4: Run Docker Container
 
 ```bash
 docker run -d -p 8080:80 cloud_project
 ```
 
-Then visit: [http://localhost:8080](http://localhost:8080)
+### Step 5: Access the App
+
+Open your browser and visit:
+
+```
+http://localhost:8080
+```
+
+✅ The application should load with a tabbed interface and REST API simulation messages.
 
 ---
 
@@ -165,15 +153,10 @@ cd cloud_project
 - Use **Enter** or **Space** to activate items
 
 ---
-✅ GitHub link:
-https://github.com/nourelhouda26/cloud_project
-
-✅ DockerHub image link:
-https://hub.docker.com/r/nourn/cloud_project
 
 ## 👥 Authors
 
-- Nia Nour elhouda
-- Chebab Lyna
+- **Nia Nour elhouda**
+- **Chebbab Lyna**
 
 > M1 Cybersecurity — Higher Institute of Science, 2025
