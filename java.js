@@ -44,4 +44,3 @@ function simulateApi(itemName) {
 document.addEventListener("DOMContentLoaded", () => {
   showTab(1); // This initializes the interface by loading the first tab
 });
-
