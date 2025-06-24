@@ -1,51 +1,72 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <!-- Defines character encoding -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CloudSync - Stockage en ligne</title>
+  <!-- Makes the page responsive on all devices -->
+
+  <title>CloudSync - Online Storage</title>
+  <!-- Browser tab title -->
+
+  <!-- Import Google Poppins font -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Link to external CSS stylesheet -->
   <link rel="stylesheet" href="style2.css" />
 </head>
+
 <body>
 
+  <!-- ====== Page Header ====== -->
   <header>
     <nav class="navbar">
+      <!-- App logo -->
       <div class="logo">☁️ CloudSync</div>
+      <!-- Navigation menu -->
       <ul class="nav-links">
-        <li><a href="#">Accueil</a></li>
-        <li><a href="#">Fonctionnalités</a></li>
-        <li><a href="#">Sécurité</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Security</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
     </nav>
+
+    <!-- Hero section with title and button -->
     <div class="hero">
-      <h1>Votre cloud privé sécurisé</h1>
-      <p>Stockez, partagez et accédez à vos fichiers où que vous soyez.</p>
-      <a href="#" class="btn">Commencer maintenant</a>
+      <h1>Your Secure Private Cloud</h1>
+      <p>Store, share, and access your files from anywhere.</p>
+      <a href="#" class="btn">Get Started</a>
     </div>
   </header>
 
+  <!-- ====== Features Section ====== -->
   <section class="features">
-    <h2>Fonctionnalités principales</h2>
+    <h2>Main Features</h2>
     <div class="cards">
+      <!-- Card 1 -->
       <div class="card">
-        <h3>📁 Stockage sécurisé</h3>
-        <p>Gardez vos fichiers dans un environnement chiffré et protégé.</p>
+        <h3>📁 Secure Storage</h3>
+        <p>Keep your files safe in an encrypted and protected environment.</p>
       </div>
+      <!-- Card 2 -->
       <div class="card">
-        <h3>🔗 Partage facile</h3>
-        <p>Générez des liens de partage pour vos fichiers ou dossiers.</p>
+        <h3>🔗 Easy Sharing</h3>
+        <p>Create sharing links for your files and folders.</p>
       </div>
+      <!-- Card 3 -->
       <div class="card">
-        <h3>📱 Accès multiplateforme</h3>
-        <p>Accédez à vos données depuis un PC, mobile ou tablette.</p>
+        <h3>📱 Cross-Platform Access</h3>
+        <p>Access your data from PC, mobile, or tablet.</p>
       </div>
     </div>
   </section>
 
+  <!-- ====== Tabbed Interface Section ====== -->
   <section class="features">
-    <h2>Interface à onglets</h2>
+    <h2>Tabbed Interface</h2>
+    
+    <!-- Tab buttons -->
     <div class="tabs">
       <button class="tab-btn active" onclick="showTab(1)">Tab 1</button>
       <button class="tab-btn" onclick="showTab(2)">Tab 2</button>
@@ -53,14 +74,21 @@
       <button class="tab-btn" onclick="showTab(4)">Tab 4</button>
     </div>
 
+    <!-- Tab content area (loaded dynamically) -->
     <div id="tab-content" class="tab-area"></div>
-    <div id="status" class="status-bar">Cliquez sur un item pour simuler un appel REST API.</div>
+
+    <!-- Status bar displaying the simulated REST message -->
+    <div id="status" class="status-bar">
+      Click on an item to simulate a REST API call.
+    </div>
   </section>
 
+  <!-- ====== Footer ====== -->
   <footer>
-    <p>&copy; 2025 CloudSync - Projet Cloud M1. Tous droits réservés.</p>
+    <p>&copy; 2025 CloudSync - Cloud Project M1. All rights reserved.</p>
   </footer>
 
+  <!-- Link to JavaScript file -->
   <script src="java.js"></script>
 </body>
 </html>
