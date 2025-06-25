@@ -1,14 +1,14 @@
-# ☁️ Tabbed Menu Web Application
+#  Tabbed Menu Web Application
 
 A responsive tabbed menu web application that simulates REST API calls when menu items are clicked.  
 This project was created as part of a midterm assignment for the **Higher Institute of Science**.
 
-🔗 **DockerHub Image**: [nourn/cloud_project](https://hub.docker.com/r/nourn/cloud_project)  
-🔗 **GitHub Repository**: [github.com/nourelhouda26/cloud_project](https://github.com/nourelhouda26/cloud_project)
+ **DockerHub Image**: [nourn/cloud_project](https://hub.docker.com/r/nourn/cloud_project)  
+ **GitHub Repository**: [github.com/nourelhouda26/cloud_project](https://github.com/nourelhouda26/cloud_project)
 
 ---
 
-## 📑 Table of Contents
+##  Table of Contents
 
 - [Project Overview](#project-overview)
 - [Features](#features)
@@ -22,7 +22,7 @@ This project was created as part of a midterm assignment for the **Higher Instit
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This web application demonstrates modern frontend development techniques including:
 
@@ -33,7 +33,7 @@ This web application demonstrates modern frontend development techniques includi
 
 ---
 
-## 🚀 Features
+##  Features
 
 ### Interactive Tab System
 
@@ -54,7 +54,7 @@ This web application demonstrates modern frontend development techniques includi
 
 ---
 
-## 🔢 Menu Item Counts
+##  Menu Item Counts
 
 - **Tab 1**: 4 menu items
 - **Tab 2**: 4 menu items
@@ -63,7 +63,7 @@ This web application demonstrates modern frontend development techniques includi
 
 ---
 
-## 🧪 Technical Implementation
+##  Technical Implementation
 
 | Component         | Technology Used        |
 |------------------|------------------------|
@@ -74,7 +74,7 @@ This web application demonstrates modern frontend development techniques includi
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 Cloud_Project/
@@ -87,7 +87,7 @@ Cloud_Project/
 
 ---
 
-## 🐳 Running the Application with Docker (Windows & All OS)
+##  Running the Application with Docker (Windows & All OS)
 
 ### Step 1: Open Terminal
 
@@ -119,11 +119,11 @@ Open your browser and visit:
 http://localhost:8080
 ```
 
-✅ The application should load with a tabbed interface and REST API simulation messages.
+ The application should load with a tabbed interface and REST API simulation messages.
 
 ---
 
-## 📥 Installation
+##  Installation
 
 ### Clone the Repository
 
@@ -139,7 +139,7 @@ cd cloud_project
 
 ---
 
-## 🧪 Usage
+##  Usage
 
 - Click on a tab to display its menu items.
 - Click on a menu item to simulate a REST API call.
@@ -147,17 +147,17 @@ cd cloud_project
   - Loading message during the simulated call
   - Success message after 1.5 seconds
 
-### 🔄 Keyboard Navigation (if supported)
+###  Keyboard Navigation (if supported)
 
 - Use **Tab** to navigate
 - Use **Enter** or **Space** to activate items
 
 ---
-✅ GitHub link: https://github.com/nourelhouda26/cloud_project⁠
+ GitHub link: https://github.com/nourelhouda26/cloud_project⁠
 
-✅ DockerHub link: https://hub.docker.com/r/nourn/cloud_project
+ DockerHub link: https://hub.docker.com/r/nourn/cloud_project
 
-## 👥 Authors
+##  Authors
 
 - **Nia Nour elhouda**
 - **Chebbab Lyna**
